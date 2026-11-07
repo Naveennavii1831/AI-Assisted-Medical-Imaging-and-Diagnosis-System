@@ -1,0 +1,50 @@
+{
+    "architecture": "DenseNet121",
+    "dataset": "ChestMNIST",
+    "training_samples": 5000,
+    "validation_samples": 1000,
+    "epochs_requested": 3,
+    "epochs_completed": 3,
+    "best_validation_loss": 0.1817900584936142,
+    "best_checkpoint": "C:\\Users\\Naveen Navii\\medical-ai-project\\models\\densenet121_chestmnist_v2.pth",
+    "final_validation_metrics": {
+        "validation_loss": 0.1817900584936142,
+        "element_accuracy": 0.9495,
+        "micro_precision": 0.31746031746031744,
+        "micro_recall": 0.029239766081871343,
+        "micro_f1": 0.0535475234270415
+    },
+    "training_history": [
+        {
+            "epoch": 1,
+            "training_loss": 0.19461178333759308,
+            "validation_loss": 0.1842331805229187,
+            "element_accuracy": 0.9502857142857143,
+            "micro_precision": 0.3,
+            "micro_recall": 0.013157894736842105,
+            "micro_f1": 0.025210084033613446
+        },
+        {
+            "epoch": 2,
+            "training_loss": 0.17802039008140563,
+            "validation_loss": 0.1817900584936142,
+            "element_accuracy": 0.9495,
+            "micro_precision": 0.31746031746031744,
+            "micro_recall": 0.029239766081871343,
+            "micro_f1": 0.0535475234270415
+        },
+        {
+            "epoch": 3,
+            "training_loss": 0.17353869352340698,
+            "validation_loss": 0.18185067331790924,
+            "element_accuracy": 0.9483571428571429,
+            "micro_precision": 0.3069306930693069,
+            "micro_recall": 0.04532163742690058,
+            "micro_f1": 0.07898089171974522
+        }
+    ],
+    "training_seconds": 135.35,
+    "device": "cpu",
+    "threshold": 0.5,
+    "clinical_validation": false
+}

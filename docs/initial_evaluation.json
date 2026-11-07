@@ -1,0 +1,15 @@
+{
+    "architecture": "DenseNet121",
+    "pretrained": true,
+    "dataset": "ChestMNIST",
+    "training_samples": 2000,
+    "validation_samples": 500,
+    "epochs": 1,
+    "training_loss": 0.20643709588050843,
+    "validation_element_accuracy": 0.9514285714285714,
+    "validation_binary_cross_entropy": 0.19485466182231903,
+    "threshold": 0.5,
+    "device": "cpu",
+    "training_seconds": 16.54,
+    "clinical_validation": false
+}

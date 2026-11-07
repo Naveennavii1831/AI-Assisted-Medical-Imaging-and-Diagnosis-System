@@ -1,0 +1,66 @@
+{
+    "architecture": "DenseNet121",
+    "dataset": "ChestMNIST",
+    "training_samples": 5000,
+    "validation_samples": 1000,
+    "epochs_requested": 3,
+    "epochs_completed": 3,
+    "best_validation_loss": 0.9917518134117127,
+    "best_checkpoint": "C:\\Users\\Naveen Navii\\medical-ai-project\\models\\densenet121_chestmnist_v3.pth",
+    "positive_class_weights": [
+        9.54852294921875,
+        20.0,
+        7.97666072845459,
+        4.668934345245361,
+        18.920318603515625,
+        16.85714340209961,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+    ],
+    "final_validation_metrics": {
+        "validation_loss": 0.9917518134117127,
+        "element_accuracy": 0.2565,
+        "micro_precision": 0.059276715308619596,
+        "micro_recall": 0.956140350877193,
+        "micro_f1": 0.1116326704787915
+    },
+    "training_history": [
+        {
+            "epoch": 1,
+            "training_loss": 1.054884267616272,
+            "validation_loss": 0.9917518134117127,
+            "element_accuracy": 0.2565,
+            "micro_precision": 0.059276715308619596,
+            "micro_recall": 0.956140350877193,
+            "micro_f1": 0.1116326704787915
+        },
+        {
+            "epoch": 2,
+            "training_loss": 0.959397572517395,
+            "validation_loss": 1.0109601464271545,
+            "element_accuracy": 0.3327857142857143,
+            "micro_precision": 0.06458102806558697,
+            "micro_recall": 0.9385964912280702,
+            "micro_f1": 0.12084705882352942
+        },
+        {
+            "epoch": 3,
+            "training_loss": 0.9248921714782715,
+            "validation_loss": 1.0107070264816285,
+            "element_accuracy": 0.2965714285714286,
+            "micro_precision": 0.0622014141028091,
+            "micro_recall": 0.9517543859649122,
+            "micro_f1": 0.1167713004484305
+        }
+    ],
+    "training_seconds": 132.91,
+    "device": "cpu",
+    "threshold": 0.15,
+    "clinical_validation": false
+}

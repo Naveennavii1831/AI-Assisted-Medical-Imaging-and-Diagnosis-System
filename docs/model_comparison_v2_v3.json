@@ -1,0 +1,32 @@
+{
+    "dataset": "ChestMNIST",
+    "split": "validation",
+    "validation_samples": 11219,
+    "comparison": {
+        "V2": {
+            "threshold": 0.15,
+            "element_accuracy": 0.8870220162224797,
+            "micro_precision": 0.17380268519137,
+            "micro_recall": 0.3261469039859614,
+            "micro_f1": 0.22676369340712013,
+            "macro_precision": 0.0895167946469426,
+            "macro_recall": 0.14416735024251598,
+            "macro_f1": 0.08453849208600596,
+            "predicted_positive_labels": 14971,
+            "actual_positive_labels": 7978
+        },
+        "V3": {
+            "threshold": 0.6,
+            "element_accuracy": 0.8533928412259815,
+            "micro_precision": 0.1205688064142,
+            "micro_recall": 0.29969917272499375,
+            "micro_f1": 0.17195871840051782,
+            "macro_precision": 0.08346502769255684,
+            "macro_recall": 0.20465323724821866,
+            "macro_f1": 0.1083431591624949,
+            "predicted_positive_labels": 19831,
+            "actual_positive_labels": 7978
+        }
+    },
+    "clinical_validation": false
+}

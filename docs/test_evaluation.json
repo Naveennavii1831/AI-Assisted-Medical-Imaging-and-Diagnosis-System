@@ -1,0 +1,18 @@
+{
+    "model": "DenseNet121",
+    "dataset": "ChestMNIST",
+    "split": "official_test",
+    "test_samples": 22433,
+    "number_of_labels": 14,
+    "threshold": 0.5,
+    "element_accuracy": 0.9471983238978291,
+    "macro_precision": 0.05635942447383126,
+    "macro_recall": 0.0007442396205976804,
+    "macro_f1": 0.0014554287364261713,
+    "micro_precision": 0.25170068027210885,
+    "micro_recall": 0.0022410660205935797,
+    "micro_f1": 0.0044425766944828,
+    "macro_roc_auc": 0.5238985120779286,
+    "binary_cross_entropy": 0.2025400549173355,
+    "clinical_validation": false
+}

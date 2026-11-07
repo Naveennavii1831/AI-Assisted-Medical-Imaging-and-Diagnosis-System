@@ -1,0 +1,92 @@
+{
+    "model": "DenseNet121",
+    "checkpoint": "densenet121_chestmnist_v3.pth",
+    "dataset": "ChestMNIST",
+    "split": "validation",
+    "validation_samples": 11219,
+    "thresholds_tested": [
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.6,
+        0.7,
+        0.8
+    ],
+    "selection_metric": "micro_f1",
+    "best_global_threshold_by_micro_f1": 0.6,
+    "best_validation_micro_f1": 0.17195871840051782,
+    "threshold_results": {
+        "0.15": {
+            "micro_precision": 0.061098145987294177,
+            "micro_recall": 0.9450990223113562,
+            "micro_f1": 0.11477630797801897,
+            "predicted_positive_labels": 123408
+        },
+        "0.2": {
+            "micro_precision": 0.06449858215476806,
+            "micro_recall": 0.9066182000501379,
+            "micro_f1": 0.12042957042957043,
+            "predicted_positive_labels": 112142
+        },
+        "0.25": {
+            "micro_precision": 0.0681802305274188,
+            "micro_recall": 0.8563549761845074,
+            "micro_f1": 0.12630450255585443,
+            "predicted_positive_labels": 100205
+        },
+        "0.3": {
+            "micro_precision": 0.07260217703840624,
+            "micro_recall": 0.797568312860366,
+            "micro_f1": 0.13308931185944364,
+            "predicted_positive_labels": 87642
+        },
+        "0.35": {
+            "micro_precision": 0.0779286949759322,
+            "micro_recall": 0.7285033843068438,
+            "micro_f1": 0.1407962790246975,
+            "predicted_positive_labels": 74581
+        },
+        "0.4": {
+            "micro_precision": 0.08441695482069514,
+            "micro_recall": 0.6517924291802457,
+            "micro_f1": 0.14947468272561334,
+            "predicted_positive_labels": 61599
+        },
+        "0.45": {
+            "micro_precision": 0.09175634517766497,
+            "micro_recall": 0.5664326898972174,
+            "micro_f1": 0.15792968476969316,
+            "predicted_positive_labels": 49250
+        },
+        "0.5": {
+            "micro_precision": 0.10015818613234906,
+            "micro_recall": 0.4761845073953372,
+            "micro_f1": 0.16550492288925678,
+            "predicted_positive_labels": 37930
+        },
+        "0.6": {
+            "micro_precision": 0.1205688064142,
+            "micro_recall": 0.29969917272499375,
+            "micro_f1": 0.17195871840051782,
+            "predicted_positive_labels": 19831
+        },
+        "0.7": {
+            "micro_precision": 0.14482104764162124,
+            "micro_recall": 0.15317122085735774,
+            "micro_f1": 0.14887914230019494,
+            "predicted_positive_labels": 8438
+        },
+        "0.8": {
+            "micro_precision": 0.17954632833525566,
+            "micro_recall": 0.058535973928302835,
+            "micro_f1": 0.08828811796956235,
+            "predicted_positive_labels": 2601
+        }
+    },
+    "clinical_validation": false
+}

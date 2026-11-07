@@ -1,0 +1,79 @@
+{
+    "model": "DenseNet121",
+    "checkpoint": "densenet121_chestmnist_v2.pth",
+    "dataset": "ChestMNIST",
+    "split": "validation",
+    "validation_samples": 11219,
+    "number_of_labels": 14,
+    "selection_metric": "micro_f1",
+    "thresholds_tested": [
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+    ],
+    "best_global_threshold_by_micro_f1": 0.15,
+    "best_validation_micro_f1": 0.22676369340712013,
+    "threshold_results": {
+        "0.1": {
+            "micro_precision": 0.14528708602782678,
+            "micro_recall": 0.4646527951867636,
+            "micro_f1": 0.22135968709879678,
+            "predicted_positive_labels": 25515
+        },
+        "0.15": {
+            "micro_precision": 0.17380268519137,
+            "micro_recall": 0.3261469039859614,
+            "micro_f1": 0.22676369340712013,
+            "predicted_positive_labels": 14971
+        },
+        "0.2": {
+            "micro_precision": 0.1946264744429882,
+            "micro_recall": 0.22336425169215343,
+            "micro_f1": 0.20800747052643867,
+            "predicted_positive_labels": 9156
+        },
+        "0.25": {
+            "micro_precision": 0.21359054570733402,
+            "micro_recall": 0.15404863374279268,
+            "micro_f1": 0.17899796096708417,
+            "predicted_positive_labels": 5754
+        },
+        "0.3": {
+            "micro_precision": 0.2340080971659919,
+            "micro_recall": 0.10867385309601404,
+            "micro_f1": 0.1484207823333048,
+            "predicted_positive_labels": 3705
+        },
+        "0.35": {
+            "micro_precision": 0.26009892827699915,
+            "micro_recall": 0.07909250438706443,
+            "micro_f1": 0.12129950019223376,
+            "predicted_positive_labels": 2426
+        },
+        "0.4": {
+            "micro_precision": 0.27250155183116076,
+            "micro_recall": 0.05502632238656305,
+            "micro_f1": 0.09156324955678381,
+            "predicted_positive_labels": 1611
+        },
+        "0.45": {
+            "micro_precision": 0.28101503759398494,
+            "micro_recall": 0.037478064677864124,
+            "micro_f1": 0.06613581066135811,
+            "predicted_positive_labels": 1064
+        },
+        "0.5": {
+            "micro_precision": 0.3050847457627119,
+            "micro_recall": 0.02707445475056405,
+            "micro_f1": 0.04973520607874741,
+            "predicted_positive_labels": 708
+        }
+    },
+    "clinical_validation": false
+}

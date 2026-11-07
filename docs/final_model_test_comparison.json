@@ -1,0 +1,43 @@
+{
+    "dataset": "ChestMNIST",
+    "split": "official_test",
+    "clinical_validation": false,
+    "models": {
+        "V2": {
+            "checkpoint": "densenet121_chestmnist_v2.pth",
+            "threshold": 0.15,
+            "test_samples": 22433,
+            "number_of_labels": 14,
+            "element_accuracy": 0.8841470792391312,
+            "macro_precision": 0.0876164139699414,
+            "macro_recall": 0.14170489677423412,
+            "macro_f1": 0.08521415852228188,
+            "micro_precision": 0.17305477874650435,
+            "micro_recall": 0.3185947910357359,
+            "micro_f1": 0.2242831254663682,
+            "macro_roc_auc": 0.5891431317982903,
+            "binary_cross_entropy": 0.193080335855484,
+            "total_actual_positive_labels": 16510,
+            "total_predicted_positive_labels": 30395,
+            "clinical_validation": false
+        },
+        "V3": {
+            "checkpoint": "densenet121_chestmnist_v3.pth",
+            "threshold": 0.6,
+            "test_samples": 22433,
+            "number_of_labels": 14,
+            "element_accuracy": 0.8487336895262719,
+            "macro_precision": 0.08413062316711366,
+            "macro_recall": 0.204713958673368,
+            "macro_f1": 0.10780978519495232,
+            "micro_precision": 0.11971537234695129,
+            "micro_recall": 0.29551786795881285,
+            "micro_f1": 0.17040076835763554,
+            "macro_roc_auc": 0.5955065620475922,
+            "binary_cross_entropy": 0.49774008989334106,
+            "total_actual_positive_labels": 16510,
+            "total_predicted_positive_labels": 40755,
+            "clinical_validation": false
+        }
+    }
+}

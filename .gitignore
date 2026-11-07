@@ -1,0 +1,64 @@
+# Python environments
+
+.venv/
+.venv-*/
+venv/
+env/
+
+# Python cache and test artifacts
+
+**pycache**/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating systems
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node.js dependencies and build output
+
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+
+*.log
+
+# Local databases and generated data
+
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Temporary files
+
+*.tmp
+*.bak
+*.swp
+# Large local datasets
+
+data/*.npz
+
+# Local DICOM samples: review metadata before sharing
+
+data/dicom_samples/
+# Editor and source-code backup files
+
+*.bak
+*~
+# Backup source files
+src/api_backup.py
