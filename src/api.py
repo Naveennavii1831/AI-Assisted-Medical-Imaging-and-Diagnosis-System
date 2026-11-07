@@ -14,6 +14,7 @@ from PIL import Image, UnidentifiedImageError
 from torchvision import models, transforms
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 # Correct import when starting with:
@@ -79,6 +80,15 @@ app = FastAPI(
     version="0.4.0",
 )
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://medical-ai-imaging.netlify.app",
+    ],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 model = None
 
 
